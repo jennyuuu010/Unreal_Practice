@@ -999,3 +999,52 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.20-10.42.23:652][  1]LogAssetRegistry: Asset discovery search completed in 12.4040 seconds
 [2022.10.20-10.42.23:657][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
 [2022.10.20-10.42.23:786][  1]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.10.20-10.44.12:918][770]LogDerivedDataCache: C:/Users/daymo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.572 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.20-10.50.20:537][232]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.10.20-10.50.20:549][232]LogContentBrowser: Creating deferred item: NewFolder
+[2022.10.20-10.50.20:558][233]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.10.20-10.50.24:659][474]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2022.10.20-10.50.24:659][474]LogContentBrowser: End creating deferred item NewFolder
+[2022.10.20-10.50.31:606][716]LogSlate: Window 'New Level' being destroyed
+[2022.10.20-10.50.31:614][716]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.20-10.50.31:614][716]LightingResults: New page: Lighting Build
+[2022.10.20-10.50.31:614][716]LoadErrors: New page: Loading map: Template_Default.umap
+[2022.10.20-10.50.31:618][716]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.10.20-10.50.31:618][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.20-10.50.31:618][716]MapCheck: New page: Map Check
+[2022.10.20-10.50.31:618][716]LightingResults: New page: Lighting Build
+[2022.10.20-10.50.31:623][716]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.20-10.50.31:626][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.20-10.50.31:651][716]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.10.20-10.50.31:651][716]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.20-10.50.31:651][716]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.20-10.50.31:652][716]LogAIModule: Creating AISystem for world Untitled_1
+[2022.10.20-10.50.31:704][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.20-10.50.31:710][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.10.20-10.50.31:710][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.20-10.50.31:711][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2022.10.20-10.50.31:711][716]LogFileHelpers: Loading map 'Template_Default' took 0.097
+[2022.10.20-10.50.45:813][897]LogSlate: Window 'Save Level As' being destroyed
+[2022.10.20-10.50.45:942][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewWorld" FILE="../../../../../../unrealproject/Unreal_Practice/MyGithub/Content/Maps/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.20-10.50.45:948][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.10.20-10.50.45:955][897]LogSavePackage: Moving output files for package: /Game/Maps/NewWorld
+[2022.10.20-10.50.45:955][897]LogSavePackage: Moving '../../../../../../unrealproject/Unreal_Practice/MyGithub/Saved/NewWorld516957F446E4A641B4427A89A7B3EDF1.tmp' to '../../../../../../unrealproject/Unreal_Practice/MyGithub/Content/Maps/NewWorld.umap'
+[2022.10.20-10.50.45:963][897]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Maps/NewWorld_BuiltData
+[2022.10.20-10.50.45:963][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewWorld_BuiltData" FILE="../../../../../../unrealproject/Unreal_Practice/MyGithub/Content/Maps/NewWorld_BuiltData.uasset" SILENT=true
+[2022.10.20-10.50.45:966][897]LogSavePackage: Moving output files for package: /Game/Maps/NewWorld_BuiltData
+[2022.10.20-10.50.45:967][897]LogSavePackage: Moving '../../../../../../unrealproject/Unreal_Practice/MyGithub/Saved/NewWorld_BuiltData6AC371BE40F3E28B47119391FAA5E684.tmp' to '../../../../../../unrealproject/Unreal_Practice/MyGithub/Content/Maps/NewWorld_BuiltData.uasset'
+[2022.10.20-10.50.45:967][897]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Maps/NewWorld_BuiltData
+[2022.10.20-10.50.45:975][897]LogFileHelpers: Saving map 'NewWorld' took 0.151
+[2022.10.20-10.50.45:978][897]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.20-10.50.45:978][897]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/NewWorld_BuiltData.NewWorld_BuiltData
+[2022.10.20-10.50.45:978][897]LogContentValidation: Display: Validating World /Game/Maps/NewWorld.NewWorld
+[2022.10.20-10.51.04:995][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewWorld" FILE="../../../../../../unrealproject/Unreal_Practice/MyGithub/Content/Maps/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.20-10.51.05:000][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.10.20-10.51.05:006][ 24]LogSavePackage: Moving output files for package: /Game/Maps/NewWorld
+[2022.10.20-10.51.05:007][ 24]LogSavePackage: Moving '../../../../../../unrealproject/Unreal_Practice/MyGithub/Saved/NewWorld89461B9040F154F00D4A5DA7708943C6.tmp' to '../../../../../../unrealproject/Unreal_Practice/MyGithub/Content/Maps/NewWorld.umap'
+[2022.10.20-10.51.05:011][ 24]LogFileHelpers: No new changes to save!
+[2022.10.20-10.51.05:020][ 24]AssetCheck: New page: Asset Save: NewWorld
+[2022.10.20-10.51.05:020][ 24]LogContentValidation: Display: Validating World /Game/Maps/NewWorld.NewWorld
+[2022.10.20-10.51.08:884][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
